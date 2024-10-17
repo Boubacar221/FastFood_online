@@ -1,13 +1,47 @@
+body{
+    background-color: rgba(127, 255, 212, 0.21);
+}
 h1{
-    color: blue;
+    color:rgba(79, 66, 66, 0.724);
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2rem;
 }
 nav{
     float: right;
+    margin-top: 20px;
+    padding: 1rem;
 }
 nav a{
     font-size: 20px;
-    text-decoration: none;
+    text-decoration:overline;
     font-family: 'Times New Roman', Times, serif;
+    color: rgba(92, 80, 96, 0.509);
+    word-spacing: 15px;
+}
+.imghaut{
+height: 10rem;
+
+}
+.logo{
+    height: 80px;
+    margin-top: 20px;
+}
+.lienrapidehaut{
+    text-decoration: overline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rgba(165, 42, 42, 0.459);
+    text-align: center;
+    margin-left: 5rem;
+}
+.container{
+    display: flex; /* Utiliser Flexbox pour aligner les images côte à côte */
+    justify-content: space-between; /* Ajouter un espace entre les images si nécessaire */
+}
+.container embed{
+        width: 50%; /* Ajuster la taille des images pour qu'elles tiennent côte à côte */
+        max-width: 100%;
+        height: auto; /* Conserver le ratio d'aspect des images */
 }
